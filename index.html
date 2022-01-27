@@ -11,16 +11,29 @@
                     behavior: 'smooth'
                 });
             }
+
+            function alert(){
+                alert("elo mordo");
+            }
         </script>
         <p id="title">Quizlee</p>
         <div id="gotoquiz">
-            <button onclick="scrollWin()">Go to quiz base</button>
+            <button onclick="scrollWin()">Go to quiz database</button>
         </div>
         <div class="flex-container">
             <div class="quiz_welcome">
                 <h1>Aktualna baza quizów</h1>
             </div>
-            <img src="country_quiz.jpg" class="country_quiz" onmouseover=""></img>
+            <div class="image">
+                <a href="https://google.com"><img src="country_quiz.jpg" class="country_quiz" alt="country_quiz"></img>
+                <div class="image__overlay image_overlay--primary">
+                    <div class="image__title">Geografia</div>
+                    <p class="image__description">
+                        Sprawdź wiedzę na temat państw!
+                    </p>
+                </div>
+                </a>
+            </div>
         </div>
     </body>
 </html>
