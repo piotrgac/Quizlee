@@ -153,16 +153,39 @@ button:hover::after{
 
 .quiz_title {
     text-align: center;
-    margin-top: 10%;
-    font-size: 30px;
+    margin-top: 7%;
+    font-size: 50px;
 }
 
 .quiz_field{
-    display: flex;
-    background-color:rgb(255, 230, 153);
-    margin-top: 250px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-bottom: 100px;
-    height: 6000px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.que1{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height:300px;
+    font-size: 20px;
+}
+
+.que2{
+    top: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height:300px;
+    font-size: 20px;
+}
+
+.odpowiedz_style{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    background-color: grey;
+}
+
+.form_style{
+    font-size: 20px;
 }
