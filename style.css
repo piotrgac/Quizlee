@@ -150,3 +150,19 @@ button:hover::after{
     margin-top: 0.25em;
     text-align: center;
 }
+
+.quiz_title {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.quiz_field{
+    display: flex;
+    background-color:rgb(255, 230, 153);
+    margin-top: 250px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 100px;
+    height: 6000px;
+}
