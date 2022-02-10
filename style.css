@@ -189,3 +189,9 @@ button:hover::after{
 .form_style{
     font-size: 20px;
 }
+
+.submit_button{
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
