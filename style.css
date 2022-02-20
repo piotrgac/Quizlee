@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&display=swap');
 body{
     font-family: 'Dosis';
+    background-image: linear-gradient(600deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 150em 100em;
 }
 .header-nav{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: silver;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,12 +52,12 @@ button{
     display: inline-block;
     font-size: 0.8em;
     font-weight: 600;
-    padding: 16px 24px;
+    padding: 10px 15px;
     text-align: center;
     touch-action: manipulation;
     width: 100%;
     will-change: transform;
-    margin: 3px;
+    margin: 8px 3px 3px 3px;
 }
 
 button:disabled {
@@ -71,4 +73,10 @@ button:hover {
 
 button:active {
     transform: translateY(0);
+}
+hr{
+    width: 99.9%;
+    position: absolute;
+    top: 85px;
+    left: 0;
 }
