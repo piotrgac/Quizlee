@@ -96,7 +96,7 @@ footer{
     margin-top: -5em;
     text-shadow: 1px 1px 1px black;
 }
-.country_quiz{
+.quiz_logo{
     width: 250px;
     height: 250px;
     margin-top: 30px;
@@ -145,23 +145,22 @@ footer{
 }
 .quiz_container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
-    background-color: #696e9e;
 }
 .quiz_content{
     display: inherit;
-    width: 1000px;
+    width: 800px;
 }
 .quiz_info{
     background: azure;
-    width: 700px;
+    width: 500px;
+    height: 250px;
     margin-top: 30px;
 }
 .quiz_info_text{
-    margin-left: 10px;
+    margin: 30px;
 }
 .quote{
     text-align: right;
