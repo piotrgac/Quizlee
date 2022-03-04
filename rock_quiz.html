@@ -13,16 +13,28 @@
         <h1 class="quiz_header">Rock Music Quiz</h1>
         <div class="question_container">
             <div class="question_box">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.</h3>
+                <div class="question_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
+                </div>
                 <form>
-                    <input type="radio" required name="driver" id="r1" value="yes">
-                        <label for="r1">Yes</label>
-                    <input type="radio" required name="driver" id="r2" value="no">
-                        <label for="r2">No</label>
-                    <input type="radio" required name="driver" id="r3" value="yes">
-                        <label for="r3">Yes</label>
-                    <input type="radio" required name="driver" id="r4" value="no">
-                        <label for="r4">No</label>
+                    <div class="answer-content">
+                        <div class="answerbox" onmouseover="active_box()" onmouseout="disable_box()" onclick="check_box()" id="que1">
+                            <input type="radio" name="answer1" id="answ1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <label for="que1"></label>
+                        </div>
+                        <div class="answerbox" onmouseover="active_box1()" onmouseout="disable_box1()" onclick="check_box1()" id="que2">
+                            <input type="radio" name="answer1" id="answ2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <label for="que2"></label>
+                        </div>
+                        <div class="answerbox" onmouseover="active_box2()" onmouseout="disable_box2()" onclick="check_box2()" id="que3">
+                            <input type="radio" name="answer1" id="answ3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <label for="que3"></label>
+                        </div>
+                        <div class="answerbox">
+                            <input type="radio" name="answer1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <label for="que4"></label>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="question_box">
@@ -68,5 +80,6 @@
             &nbsp;&nbsp;&nbsp;<a href="https://twitter.com"><img alt="twitter logo" width="30px" src="images/twitter-brands.png"></a>
         </div>
     </nav>
+    <script src="script.js"></script>
 </body>
 </html>

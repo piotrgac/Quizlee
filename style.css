@@ -192,3 +192,34 @@ footer{
 }
 .quiz_header{
 }
+.answerbox{
+    display: block;
+    cursor: pointer;
+    background-color: blueviolet;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.question_text{
+    cursor: default;
+    margin: 20px;
+    background-color: rgba(0, 2, 199, 0.3);
+    font-weight: revert;
+    font-size: x-large;
+    text-align: left;
+}
+.answer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-right: 40px;
+}
