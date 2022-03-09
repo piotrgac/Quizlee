@@ -18,20 +18,20 @@
                 </div>
                 <form>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseover="active_box()" onmouseout="disable_box()" onclick="check_box()" id="que1">
+                        <div class="answerbox" onmouseover="getID(this.id)" onmouseout="disable_box(this.id)" onclick="check_box('answ1')" id="que1">
                             <input type="radio" name="answer1" id="answ1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                             <label for="que1"></label>
                         </div>
-                        <div class="answerbox" onmouseover="active_box1()" onmouseout="disable_box1()" onclick="check_box1()" id="que2">
+                        <div class="answerbox" onmouseover="getID(this.id)" onmouseout="disable_box(this.id)" onclick="check_box('answ2')" id="que2">
                             <input type="radio" name="answer1" id="answ2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                             <label for="que2"></label>
                         </div>
-                        <div class="answerbox" onmouseover="active_box2()" onmouseout="disable_box2()" onclick="check_box2()" id="que3">
+                        <div class="answerbox" onmouseover="getID(this.id)" onmouseout="disable_box(this.id)" onclick="check_box('answ3')" id="que3">
                             <input type="radio" name="answer1" id="answ3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                             <label for="que3"></label>
                         </div>
-                        <div class="answerbox">
-                            <input type="radio" name="answer1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        <div class="answerbox" onmouseover="getID(this.id)" onmouseout="disable_box(this.id)" onclick="check_box('answ4')" id="que4">
+                            <input type="radio" name="answer1" id="answ4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                             <label for="que4"></label>
                         </div>
                     </div>
