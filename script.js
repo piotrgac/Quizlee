@@ -1,22 +1,10 @@
-function getID(clicked_id){
-     console.log(clicked_id);
-     document.getElementById(clicked_id).style.border='2px solid #1A1A1A';
-}
-function disable_box(clicked_id){
-     document.getElementById(clicked_id).style.border="0px solid #000";
-}
-function check_box(answer){
-    document.getElementById(answer).checked="checked";
-}
-/*function active_box(){
-    document.getElementById('que1').style.border='2px solid #1A1A1A';
+let current_id = 0;
+function getID(clicked_id) {
+    current_id = clicked_id;
+    return current_id;
 }
 
-
-function active_box1(){
-    document.getElementById(optionID).style.border='2px solid #1A1A1A';
+function check_box(answer) {
+     document.getElementById(answer).checked="checked";
+     document.getElementById(current_id).style.border = '2px solid #1A1A1A';
 }
-function disable_box1(){
-    document.getElementById(optionID).style.border="0px solid #000";
-}
-*/
