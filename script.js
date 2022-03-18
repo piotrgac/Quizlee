@@ -4,7 +4,16 @@ function getID(clicked_id) {
     return current_id;
 }
 
-function check_box(answer) {
-     document.getElementById(answer).checked="checked";
-     document.getElementById(current_id).style.border = '2px solid #1A1A1A';
+function check_box(answer){
+    document.getElementById(answer).checked = "checked";
+    document.getElementById(current_id).style.border = "2px solid black";
+}
+function disable_box(answer){
+    addEventListener(onmouseout,)
+    if (document.getElementById(answer).checked === true){
+        document.getElementById(current_id).style.border="2px solid black";
+    }
+    else {
+        document.getElementById(current_id).style.border="0px solid black";
+    }
 }

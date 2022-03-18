@@ -2,6 +2,7 @@
 body{
     font-family: 'Dosis';
     background-image: linear-gradient(600deg, #84fab0 0%, #8fd3f4 100%);
+    background-size: 100% 110%;
     background-repeat: no-repeat;
 }
 main{
@@ -182,7 +183,7 @@ footer{
     margin-right: 10%;
 }
 .question_box{
-    background-color: #5FE3D0;
+    background-image: linear-gradient(600deg, #84fab0 0%, #8fd3f4 100%);
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 70px;
@@ -196,16 +197,13 @@ footer{
 .answerbox{
     display: block;
     cursor: pointer;
-    background-color: #34DBC4;
+    background-color: rgba(142,153,171,0.2);
     width: 100%;
     height: 70px;
     padding: 5px;
     box-sizing: border-box;
     margin-left: 20px;
     margin-right: 20px;
-}
-.answerbox:hover{
-    border: 2px solid #1A1A1A;
 }
 form{
     display: flex;
@@ -225,4 +223,32 @@ form{
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     margin-right: 40px;
+}
+.answerbox:hover{
+    border: 1px solid black;
+}
+.endbutton{
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 12px;
+    color: floralwhite;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    touch-action: manipulation;
+    width: 80%;
+    will-change: transform;
+}
+.endbutton:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.endbutton:active{
+    transform: translateY(0);
 }
