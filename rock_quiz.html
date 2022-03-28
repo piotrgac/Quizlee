@@ -5,7 +5,7 @@
     <meta name="author" content="Piotr Gac">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="images/logo.png" type="image/icon type">
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quizlee</title>
 </head>
     <body>
@@ -15,25 +15,17 @@
             <form>
             <div class="question_box">
                 <div class="question_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ1a')" onmouseover="getID(this.id)" onclick="check_box('answ1a')" id="que1a">
-                            <input type="radio" name="answer1" id="answ1a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que1a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ1b')" onmouseover="getID(this.id)" onclick="check_box('answ1b')" id="que1b">
-                            <input type="radio" name="answer1" id="answ1b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que1b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ1c')" onmouseover="getID(this.id)" onclick="check_box('answ1c')" id="que1c">
-                            <input type="radio" name="answer1" id="answ1c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que1c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ1d')" onmouseover="getID(this.id)" onclick="check_box('answ1d')" id="que1d">
-                            <input type="radio" name="answer1" id="answ1d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que1d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer1" id="answ1a">
+                            <label for="answ1a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ1a')" id="que1a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer1" id="answ1b">
+                            <label for="answ1b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ1b')" id="que1b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer1" id="answ1c">
+                            <label for="answ1c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ1c')" id="que1c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer1" id="answ1d">
+                            <label for="answ1d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ1d')" id="que1d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -41,67 +33,43 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ2a')" onmouseover="getID(this.id)" onclick="check_box('answ2a')" id="que2a">
-                            <input type="radio" name="answer2" id="answ2a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que2a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answb')" onmouseover="getID(this.id)" onclick="check_box('answ2b')" id="que2b">
-                            <input type="radio" name="answer2" id="answ2b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que2b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ2c')" onmouseover="getID(this.id)" onclick="check_box('answ2c')" id="que2c">
-                            <input type="radio" name="answer2" id="answ2c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que2c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ2d')" onmouseover="getID(this.id)" onclick="check_box('answ2d')" id="que2d">
-                            <input type="radio" name="answer2" id="answ2d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que2d"></label>
+                            <input type="radio" hidden="hidden" name="answer2" id="answ2a">
+                            <label for="answ2a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ2a')" id="que2a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer2" id="answ2b">
+                            <label for="answ2b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ2b')" id="que2b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer2" id="answ2c">
+                            <label for="answ2c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ2c')" id="que2c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer2" id="answ2d">
+                            <label for="answ2d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ2d')" id="que2d">Lorem ipsum dolor sit</label>
                         </div>
                     </div>
-            </div>
             <div class="question_box">
                 <div class="question_text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ3a')" onmouseover="getID(this.id)" onclick="check_box('answ3a')" id="que3a">
-                            <input type="radio" name="answer3" id="answ3a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que3a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ3b')" onmouseover="getID(this.id)" onclick="check_box('answ3b')" id="que3b">
-                            <input type="radio" name="answer3" id="answ3b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que3b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ3c')" onmouseover="getID(this.id)" onclick="check_box('answ3c')" id="que3c">
-                            <input type="radio" name="answer3" id="answ3c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que3c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ4d')" onmouseover="getID(this.id)" onclick="check_box('answ3d')" id="que3d">
-                            <input type="radio" name="answer3" id="answ3d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que3d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer3" id="answ3a">
+                            <label for="answ3a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ3a')" id="que3a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer3" id="answ3b">
+                            <label for="answ3b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ3b')" id="que3b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer3" id="answ3c">
+                            <label for="answ3c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ3c')" id="que3c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer3" id="answ3d">
+                            <label for="answ3d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ3d')" id="que3d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box"><div class="question_text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
             </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ4a')" onmouseover="getID(this.id)" onclick="check_box('answ4a')" id="que4a">
-                            <input type="radio" name="answer4" id="answ4a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que4a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ4b')" onmouseover="getID(this.id)" onclick="check_box('answ4b')" id="que4b">
-                            <input type="radio" name="answer4" id="answ4b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que4b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ4c')" onmouseover="getID(this.id)" onclick="check_box('answ4c')" id="que4c">
-                            <input type="radio" name="answer4" id="answ4c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que4c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ4d')" onmouseover="getID(this.id)" onclick="check_box('answ4d')" id="que4d">
-                            <input type="radio" name="answer4" id="answ4d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que4d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer4" id="answ4a">
+                            <label for="answ4a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ4a')" id="que4a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer4" id="answ4b">
+                            <label for="answ4b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ4b')" id="que4b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer4" id="answ4c">
+                            <label for="answ4c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ4c')" id="que4c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer4" id="answ4d">
+                            <label for="answ4d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ4d')" id="que4d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -109,22 +77,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ5a')" onmouseover="getID(this.id)" onclick="check_box('answ5a')" id="que5a">
-                            <input type="radio" name="answer5" id="answ5a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que5a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ5b')" onmouseover="getID(this.id)" onclick="check_box('answ5b')" id="que5b">
-                            <input type="radio" name="answer5" id="answ5b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que5b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ5c')" onmouseover="getID(this.id)" onclick="check_box('answ5c')" id="que5c">
-                            <input type="radio" name="answer5" id="answ5c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que5c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ5d')" onmouseover="getID(this.id)" onclick="check_box('answ5d')" id="que5d">
-                            <input type="radio" name="answer5" id="answ5d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que5d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer5" id="answ5a">
+                            <label for="answ5a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ5a')" id="que5a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer5" id="answ5b">
+                            <label for="answ5b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ5b')" id="que5b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer5" id="answ5c">
+                            <label for="answ5c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ5c')" id="que5c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer5" id="answ5d">
+                            <label for="answ5d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ5d')" id="que5d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -132,22 +92,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ6a')" onmouseover="getID(this.id)" onclick="check_box('answ6a')" id="que6a">
-                            <input type="radio" name="answer6" id="answ6a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que6a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ6b')" onmouseover="getID(this.id)" onclick="check_box('answ6b')" id="que6b">
-                            <input type="radio" name="answer6" id="answ6b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que6b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ6c')" onmouseover="getID(this.id)" onclick="check_box('answ6c')" id="que6c">
-                            <input type="radio" name="answer6" id="answ6c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que6c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ6d')" onmouseover="getID(this.id)" onclick="check_box('answ6d')" id="que6d">
-                            <input type="radio" name="answer6" id="answ6d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que6d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer6" id="answ6a">
+                            <label for="answ6a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ6a')" id="que6a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer6" id="answ6b">
+                            <label for="answ6b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ6b')" id="que6b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer6" id="answ6c">
+                            <label for="answ6c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ6c')" id="que6c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer6" id="answ6d">
+                            <label for="answ6d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ6d')" id="que6d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -155,22 +107,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ7a')" onmouseover="getID(this.id)" onclick="check_box('answ7a')" id="que7a">
-                            <input type="radio" name="answer7" id="answ7a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que7a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ7b')" onmouseover="getID(this.id)" onclick="check_box('answ7b')" id="que7b">
-                            <input type="radio" name="answer7" id="answ7b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que7b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ7c')" onmouseover="getID(this.id)" onclick="check_box('answ7c')" id="que7c">
-                            <input type="radio" name="answer7" id="answ7c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que7c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ7d')" onmouseover="getID(this.id)" onclick="check_box('answ7d')" id="que7d">
-                            <input type="radio" name="answer7" id="answ7d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que7d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer7" id="answ7a">
+                            <label for="answ7a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ7a')" id="que7a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer7" id="answ7b">
+                            <label for="answ7b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ7b')" id="que7b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer7" id="answ7c">
+                            <label for="answ7c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ7c')" id="que7c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer7" id="answ7d">
+                            <label for="answ7d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ7d')" id="que7d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -178,22 +122,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ8a')" onmouseover="getID(this.id)" onclick="check_box('answ8a')" id="que8a">
-                            <input type="radio" name="answer8" id="answ8a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que8a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ8b')" onmouseover="getID(this.id)" onclick="check_box('answ8b')" id="que8b">
-                            <input type="radio" name="answer8" id="answ8b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que8b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ8c')" onmouseover="getID(this.id)" onclick="check_box('answ8c')" id="que8c">
-                            <input type="radio" name="answer8" id="answ8c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que8c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ8d')" onmouseover="getID(this.id)" onclick="check_box('answ8d')" id="que8d">
-                            <input type="radio" name="answer8" id="answ8d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que8d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer8" id="answ8a">
+                            <label for="answ8a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ8a')" id="que8a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer8" id="answ8b">
+                            <label for="answ8b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ8b')" id="que8b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer8" id="answ8c">
+                            <label for="answ8c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ8c')" id="que8c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer8" id="answ8d">
+                            <label for="answ8d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ8d')" id="que8d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -201,22 +137,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ9a')" onmouseover="getID(this.id)" onclick="check_box('answ9a')" id="que9a">
-                            <input type="radio" name="answer9" id="answ9a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que9a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ9b')" onmouseover="getID(this.id)" onclick="check_box('answ9b')" id="que9b">
-                            <input type="radio" name="answer9" id="answ9b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que9b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ9c')" onmouseover="getID(this.id)" onclick="check_box('answ9c')" id="que9c">
-                            <input type="radio" name="answer9" id="answ9c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que9c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ9d')" onmouseover="getID(this.id)" onclick="check_box('answ9d')" id="que9d">
-                            <input type="radio" name="answer9" id="answ9d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que9d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer9" id="answ9a">
+                            <label for="answ9a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ9a')" id="que9a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer9" id="answ9b">
+                            <label for="answ9b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ9b')" id="que9b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer9" id="answ9c">
+                            <label for="answ9c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ9c')" id="que9c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer9" id="answ9d">
+                            <label for="answ9d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ9d')" id="que9d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
             <div class="question_box">
@@ -224,22 +152,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem et. Accumsan sit amet nulla facilisi morbi.
                 </div>
                     <div class="answer-content">
-                        <div class="answerbox" onmouseout="disable_box('answ10a')" onmouseover="getID(this.id)" onclick="check_box('answ10a')" id="que10a">
-                            <input type="radio" name="answer10" id="answ10a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que10a"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ10b')" onmouseover="getID(this.id)" onclick="check_box('answ10b')" id="que10b">
-                            <input type="radio" name="answer10" id="answ10b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que10b"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ10c')" onmouseover="getID(this.id)" onclick="check_box('answ10c')" id="que10c">
-                            <input type="radio" name="answer10" id="answ10c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que10c"></label>
-                        </div>
-                        <div class="answerbox" onmouseout="disable_box('answ10d')" onmouseover="getID(this.id)" onclick="check_box('answ10d')" id="que10d">
-                            <input type="radio" name="answer10" id="answ10d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            <label for="que10d"></label>
-                        </div>
+                            <input type="radio" hidden="hidden" name="answer10" id="answ10a">
+                            <label for="answ10a" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ10a')" id="que10a">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer10" id="answ10b">
+                            <label for="answ10b" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ10b')" id="que10b">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer10" id="answ10c">
+                            <label for="answ10c" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ10c')" id="que10c">Lorem ipsum dolor sit</label>
+                            <input type="radio" hidden="hidden" name="answer10" id="answ10d">
+                            <label for="answ10d" class="answerbox" onmouseover="getID(this.id)" onclick="check_box('answ10d')" id="que10d">Lorem ipsum dolor sit</label>
                     </div>
             </div>
                 <input class="endbutton" type="submit" value="See result">
